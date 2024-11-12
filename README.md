@@ -36,8 +36,7 @@ config :my_app, MyApp.Endpoint,
   live_reload: [
     patterns: [
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif)$},
-      ~r{web/views/.*(ex)$},
-      ~r{lib/APP_web/templates/.*(eex|slim|slime)$}
+      ~r{lib/.*(ex|eex|slim|slime)$}
     ]
   ]
 ```
